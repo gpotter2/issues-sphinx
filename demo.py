@@ -11,3 +11,14 @@ def pony(c,
          ):
     # type: (...) -> str
     return a + (b or "")
+
+class Kingdom:
+    def empire(self,
+               a,  # type: str
+               ):
+        # type: (...) -> None
+        return
+
+    def equestria(self):
+        # type: () -> None
+        return
