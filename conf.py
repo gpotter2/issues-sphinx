@@ -6,7 +6,7 @@
 
 # -- Path setup --------------------------------------------------------------
 
-needs_sphinx = '2.4.0'
+needs_sphinx = '3.0.0'
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -31,7 +31,6 @@ author = 'gpotter'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.autodoc.typehints',
     'sphinx.ext.napoleon'
 ]
 
